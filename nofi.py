@@ -59,11 +59,7 @@ if __name__ == "__main__":
     res1 = qy_msg.send_text("这是一条来自Python程序的企业微信测试通知")
     print("文本消息返回：", res1)
 
-    # 2.发送@所有人文本通知
-    # res2 = qy_msg.send_text("告警通知！请注意查看", mentioned_list=["@all"])
-    # print(res2)
-
-    # 3.发送markdown格式消息
+    # 2.发送markdown格式消息
     markdown_text = """### 程序告警通知
 > 状态：<font color="info">正常</font>
 - 服务名称：测试服务
