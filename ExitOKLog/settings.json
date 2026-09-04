@@ -1,0 +1,11 @@
+[
+    {
+        "name": "inputValue",
+        "type": "input-text",
+        "label": "日志内容",
+        "text": [
+            "配置组已全部执行完毕"
+        ],
+        "default": "配置组已全部执行完毕"
+    }
+]

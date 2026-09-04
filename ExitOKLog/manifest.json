@@ -1,0 +1,17 @@
+{
+  "manifest_version": 1,
+  "name": "作为日志的自定义标记",
+  "version": "1.0",
+  "description": "写入日志自定义标记，以便第三方软件可以识别",
+  "tags": [
+    "日志标记"
+  ],
+  "authors": [
+    {
+      "name": "nyano",
+      "links": "https://github.com/nyano"
+    }
+  ],
+  "main": "main.js",
+  "settings_ui": "settings.json"
+}
